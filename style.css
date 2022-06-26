@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
 
 /* Resets CSS */
-html,
-body,
+html,body,
 div,
 span,
 applet,
@@ -79,9 +78,7 @@ ruby,
 section,
 summary,
 time,
-mark,
-audio,
-video {
+mark,audio, video {
     margin: 0;
     padding: 0;
     border: 0;
@@ -160,7 +157,7 @@ body {
     font-size: 18px;
     color: #fff;
     background-image: url(./assets/background.svg);
-    width: 640px;
+    max-width: 640px;
     margin: 40px auto;
     line-height: 1.5;
 }
@@ -225,4 +222,24 @@ blockquote{
     text-decoration: none;
     border-bottom:  2px solid #f05d5d;
     padding-bottom: 1px;
+}
+
+/* MEDIA QUERIES */
+@media only screen and (max-width: 620px) {
+    section, header{
+        padding: 20px;
+    }
+
+    nav{
+        padding: 10px 20px;
+    }
+    nav a{
+        display: block;
+    }
+    section p{
+        font-size: 16px;
+    }
+    h2{
+        font-size: 24px;
+    }
 }
