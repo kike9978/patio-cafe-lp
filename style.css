@@ -182,6 +182,11 @@ nav a {
     text-decoration: none;
     margin-right: 15px;
 }
+nav a:hover{
+    color: #5000ff;
+    padding-bottom: 1px;
+    border-bottom: 3px solid #fff;
+}
 
 section {
     padding: 40px;
